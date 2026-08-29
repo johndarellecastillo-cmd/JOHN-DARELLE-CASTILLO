@@ -1,0 +1,10 @@
+{
+  "name": "Student Attendance Tracker",
+  "description": "Ultra-minimalist student attendance tracking with live QR scanning, roster management, and event records.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

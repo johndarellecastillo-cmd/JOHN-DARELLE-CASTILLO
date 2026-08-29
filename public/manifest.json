@@ -1,0 +1,50 @@
+{
+  "id": "com.attendance.tracker.app",
+  "name": "Student Attendance Tracker",
+  "short_name": "Attendance",
+  "description": "Ultra-fast student attendance tracking with live QR scanning, roster management, and event records.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#09090b",
+  "theme_color": "#10b981",
+  "categories": ["education", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Live Scanner",
+      "short_name": "Scanner",
+      "description": "Open live camera QR scanner",
+      "url": "/?tab=scanner",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Past Events",
+      "short_name": "Events",
+      "description": "View event attendance records",
+      "url": "/?tab=events",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Student Roster",
+      "short_name": "Roster",
+      "description": "Manage student database",
+      "url": "/?tab=roster",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+    }
+  ]
+}
